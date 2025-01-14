@@ -4,6 +4,7 @@ import { ITraderConfig, IUpdateTime } from "@spt/models/spt/config/ITraderConfig
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ImageRouter } from "@spt/routers/ImageRouter";
 import { JsonUtil } from "@spt/utils/JsonUtil";
+import * as questAssort from "../db/questassort.json";
 
 export class TraderHelper
 {
@@ -57,11 +58,7 @@ export class TraderHelper
         tables.traders[traderDetailsToAdd._id] = {
             assort: jsonUtil.deserialize(jsonUtil.serialize(assortJson)) as ITraderAssort, // Deserialise/serialise creates a copy of the json and allows us to cast it as an ITraderAssort
             base: jsonUtil.deserialize(jsonUtil.serialize(traderDetailsToAdd)) as ITraderBase, // Deserialise/serialise creates a copy of the json and allows us to cast it as an ITraderBase
-            questassort: {
-                started: {},
-                success: {},
-                fail: {},
-            }, // questassort is empty as trader has no assorts unlocked by quests
+            questassort: jsonUtil.deserialize(jsonUtil.serialize(questAssort))  // questassort is empty as trader has no assorts unlocked by quests
         };
     }
 
