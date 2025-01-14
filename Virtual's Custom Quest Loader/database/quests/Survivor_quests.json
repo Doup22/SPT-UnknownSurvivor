@@ -583,6 +583,7 @@
           "value": 50000
         },
         {
+          "availableInGameEditions": [],
           "id": "67835ab253fdb9559c763a22",
           "index": 3,
           "items": [
@@ -666,10 +667,10 @@
           "conditionType": "Level",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "67859b63aca877c7ceb5b18e",
+          "id": "6785cb596c73b7a81cf45026",
           "index": 0,
           "parentId": "",
-          "Value": 20,
+          "value": 20,
           "visibilityConditions": []   
         }
       ],

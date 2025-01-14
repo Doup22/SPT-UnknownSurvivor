@@ -4,7 +4,7 @@ import { ITraderConfig, IUpdateTime } from "@spt/models/spt/config/ITraderConfig
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ImageRouter } from "@spt/routers/ImageRouter";
 import { JsonUtil } from "@spt/utils/JsonUtil";
-import * as questAssort         from "../db/questassort.json";
+import * as questAssort from "../db/questassort.json";
 
 export class TraderHelper
 {
