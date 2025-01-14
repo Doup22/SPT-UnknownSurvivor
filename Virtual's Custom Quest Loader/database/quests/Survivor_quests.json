@@ -149,7 +149,7 @@
                 "conditionType": "VisitPlace",
                 "dynamicLocale": false,
                 "id": "6780983ea5590d0cf35160c6",
-                "target": "Crackhouse_Z1",
+                "target": "UnknownSurvivor_Crackhouse_Z1",
                 "value": 1
               }
             ],
@@ -422,7 +422,7 @@
           "target": "6758f03d55bf9943a7b14e47",
           "type": "TraderStanding",
           "unknown": false,
-          "value": 0.05
+          "value": 0.02
         },
         {
           "availableInGameEditions": [],
@@ -442,23 +442,6 @@
           "type": "Item",
           "unknown": false,
           "value": 25000
-        },
-        {
-          "findInRaid": false,
-          "id": "67818065579b8011b154d66f",
-          "index": 3,
-          "items": [
-            {
-              "_id": "6767a7c7ff8ed2569fac84c2",
-              "_tpl": "5aafbcd986f7745e590fff23",
-              "upd": {
-                "StackObjectsCount": 1
-              }
-            }
-          ],
-          "target": "6767a7c7ff8ed2569fac84c2",
-          "type": "Item",
-          "value": 1
         }   
       ]
     },  
@@ -580,7 +563,7 @@
           "index": 1,
           "target": "6758f03d55bf9943a7b14e47",
           "type": "TraderStanding",
-          "value": 0.05
+          "value": 0.04
         },  
         {
           "findInRaid": false,
@@ -621,5 +604,185 @@
     "successMessageText": "678357b492116f3d9daa65fb successMessageText",
     "traderId": "6758f03d55bf9943a7b14e47",
     "type": "Elimination"
+  },
+  "67858833e1f13d3e3887806e": {
+    "QuestName": "A Helping Hand",
+    "_id": "67858833e1f13d3e3887806e",
+    "acceptPlayerMessage": "67858833e1f13d3e3887806e acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67858833e1f13d3e3887806e changeQuestMessageText",
+    "completePlayerMessage": "67858833e1f13d3e3887806e completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "678589b50a2112fe144f9426",
+          "index": 0,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5ca20d5986f774331e7c9602"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "UnknownSurvivor_PlaceItem_EastWing_322"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "678589bf1d72cc7f1da157b8",
+          "index": 1,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5448fee04bdc2dbc018b4567"
+          ],
+          "value": 2,
+          "visibilityConditions": [],
+          "zoneId": "UnknownSurvivor_PlaceItem_EastWing_322"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67858bafe0f7528e90d5e997",
+          "index": 2,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "57347da92459774491567cf5"
+          ],
+          "value": 2,
+          "visibilityConditions": [],
+          "zoneId": "UnknownSurvivor_PlaceItem_EastWing_322"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67859b63aca877c7ceb5b18e",
+          "index": 0,
+          "parentId": "",
+          "Value": 20,
+          "visibilityConditions": []   
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67858833e1f13d3e3887806e declinePlayerMessage",
+    "description": "67858833e1f13d3e3887806e description",
+    "failMessageText": "67858833e1f13d3e3887806e failMessageText",
+    "image": "/files/quest/icon/AHelpingHand_quest.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "67858833e1f13d3e3887806e name",
+    "note": "67858833e1f13d3e3887806e note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67858dd5129ad35da8c3df50",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "60cc9f9f98b492706036460a",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67858fbb0015e393ebb46b50",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67858eb7ab75a2882a7d03e9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 150000
+              }
+            }
+          ],
+          "target": "67858eb7ab75a2882a7d03e9",
+          "type": "Item",
+          "unknown": false,
+          "value": 150000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67858fc357b8e237af88fdc8",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6782661a39d898b74ceaa5c0",
+              "_tpl": "5d02797c86f774203f38e30a"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6782661a39d898b74ceaa5c0",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"     
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6785910842393622aad2dc07",
+          "index": 4,
+          "items": [
+            {
+              "_id": "6785921a9c661297610fe267",
+              "_tpl": "5d235b4d86f7742e017bc88a",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 25
+              }
+            }
+          ],
+          "target": "6785921a9c661297610fe267",
+          "type": "Item",
+          "unknown": true,
+          "value": 25
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6785910153f8c06ae8b8ff22",
+          "index": 5,
+          "items": [
+            {
+              "_id": "6782654f4fd5eee65434a827",
+              "_tpl": "60098ad7c2240c0fe85c570a"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6782654f4fd5eee65434a827",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67858833e1f13d3e3887806e startedMessageText",
+    "successMessageText": "67858833e1f13d3e3887806e successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Completion"
+
   }
 }  
