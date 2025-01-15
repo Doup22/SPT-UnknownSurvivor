@@ -68,11 +68,21 @@
             "heal_price_coef": 0
         },
         {
-            "minLevel": 27,
+            "minLevel": 17,
             "minSalesSum": 1000000,
             "minStanding": 0.40,
             "buy_price_coef": 437,
             "repair_price_coef": 430,
+            "insurance_price_coef": 1,
+            "exchange_price_coef": 0,
+            "heal_price_coef": 0
+        },
+        {
+            "minLevel": 30,
+            "minSalesSum": 2000000,
+            "minStanding": 0.50,
+            "buy_price_coef": 475,
+            "repair_price_coef": 4500,
             "insurance_price_coef": 1,
             "exchange_price_coef": 0,
             "heal_price_coef": 0
