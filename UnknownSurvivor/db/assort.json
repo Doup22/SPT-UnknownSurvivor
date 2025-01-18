@@ -738,16 +738,14 @@
       "parentId": "5fe49444ae6628187a2e78b8",
       "slotId": "hideout",
       "upd": {
-        "FireMode": {
-          "FireMode": "fullauto"
-        },
-        "UnlimitedCount": false,
-        "StackObjectsCount": 1,
-        "BuyRestrictionCurrent": 0,
-        "BuyRestrictionMax": 1
+          "StackObjectsCount": 1,
+					"Repairable": {
+					"Durability": 100,
+					"MaxDurability": 100
         }
-    },
-    {
+    }
+  },
+  {
       "_id": "678844482866193764031e7d",
       "_tpl": "57616c112459773cce774d66",
       "parentId": "678843562866193764031e43",
@@ -780,7 +778,7 @@
     {
       "_id": "678844482866193764031e82",
       "_tpl": "5f63418ef5750b524b45f116",
-      "parentId": "678844482866193764031e82",
+      "parentId": "678843562866193764031e43",
       "slotId": "mod_handguard"
     },
     {
