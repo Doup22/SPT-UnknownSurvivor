@@ -13,7 +13,10 @@
         ],
         "id_list": []
     },
-    "items_buy_prohibited": {},
+    "items_buy_prohibited": {
+        "category": [],
+        "id_list": []
+    },
     "customization_seller": false,
     "name": "Unknown Survivor",
     "surname": "",
@@ -53,7 +56,7 @@
             "minStanding": 0.00,
             "buy_price_coef": 54,
             "repair_price_coef": 500,
-            "insurance_price_coef": 10,
+            "insurance_price_coef": "1",
             "exchange_price_coef": 0,
             "heal_price_coef": 0
         },
@@ -63,7 +66,7 @@
             "minStanding": 0.30,
             "buy_price_coef": 50,
             "repair_price_coef": 480,
-            "insurance_price_coef": 1,
+            "insurance_price_coef": "1",
             "exchange_price_coef": 0,
             "heal_price_coef": 0
         },
@@ -73,7 +76,7 @@
             "minStanding": 0.40,
             "buy_price_coef": 45,
             "repair_price_coef": 430,
-            "insurance_price_coef": 1,
+            "insurance_price_coef": "1",
             "exchange_price_coef": 0,
             "heal_price_coef": 0 
         },
@@ -83,7 +86,7 @@
             "minStanding": 0.50,
             "buy_price_coef": 40,
             "repair_price_coef": 400,
-            "insurance_price_coef": 1,
+            "insurance_price_coef": "1",
             "exchange_price_coef": 0,
             "heal_price_coef": 0             
         }

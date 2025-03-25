@@ -18,11 +18,13 @@ import assortJson = require("../db/assort.json");
 class UnknownSurvivor   implements IPreSptLoadMod, IPostDBLoadMod
 {
     private mod: string;
+    private traderImgPath: string;
     private logger: ILogger;
     private traderHelper: TraderHelper;
 
     constructor() {
-        this.mod = "UnknownSurvivor"; 
+        this.mod = "UnknownSurvivor";
+        this.traderImgPath = "res/unknownsurvivor.jpg"; 
     }
 
     /**
@@ -44,7 +46,7 @@ class UnknownSurvivor   implements IPreSptLoadMod, IPostDBLoadMod
 
 
         this.traderHelper = new TraderHelper();
-        this.traderHelper.registerProfileImage(baseJson, this.mod, preSptModLoader, imageRouter, "unknownsurvivor.jpg");
+        imageRouter.addRoute(baseJson.avatar.replace(".jpg", ""), `${preSptModLoader.getModPath(this.mod)}${this.traderImgPath}`);
         this.traderHelper.setTraderUpdateTime(traderConfig, baseJson, 3600, 4000);
         
         Traders[baseJson._id] = baseJson._id;
