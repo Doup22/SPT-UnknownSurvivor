@@ -73,7 +73,7 @@ class UnknownSurvivor   implements IPreSptLoadMod, IPostDBLoadMod
         const tables = databaseServer.getTables();
 
         this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil, assortJson);
-        this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "UnknownSurvivor", baseJson.nickname, baseJson.location, "Get all your food and drink needs here!");
+        this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "UnknownSurvivor", baseJson.nickname, baseJson.location, "There isn't much known about this trader. He appears to sell survival items like food and water. He may reveal that he offers much more as we gain his trust.");
         
         this.logger.debug(`[${this.mod}] postDb Loaded`);
     }
