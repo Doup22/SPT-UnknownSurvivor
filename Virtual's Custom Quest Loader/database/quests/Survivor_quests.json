@@ -75,7 +75,7 @@
     "image": "/files/quest/icon/GainingTrust_quest.png",
     "instantComplete": false,
     "isKey": false,
-    "location": "any", 
+    "location": "any",
     "name": "676385896f9d85d81d974d66 name",
     "note": "676385896f9d85d81d974d66 note",
     "restartable": false,
@@ -90,7 +90,9 @@
           "value": 2000
         },
         {
-          "availableInGameEditions": ["unheard_edition"],
+          "availableInGameEditions": [
+            "unheard_edition"
+          ],
           "id": "676392d4e842eaf24b9f1ae8",
           "index": 1,
           "target": "6758f03d55bf9943a7b14e47",
@@ -98,13 +100,15 @@
           "value": 0.05
         },
         {
-          "availableInGameEditions": ["standard"],
+          "availableInGameEditions": [
+            "standard"
+          ],
           "id": "67817d033af6b040a01d4f95",
           "index": 2,
           "target": "6758f03d55bf9943a7b14e47",
           "type": "TraderStanding",
           "value": 0.15
-        },  
+        },
         {
           "findInRaid": false,
           "id": "676392cebc7d64c4641ce044",
@@ -130,8 +134,8 @@
     "successMessageText": "676385896f9d85d81d974d66 successMessageText",
     "traderId": "6758f03d55bf9943a7b14e47",
     "type": "Elimination"
-},
-"6767a1d14b6b88c9e9b07d84": {
+  },
+  "6767a1d14b6b88c9e9b07d84": {
     "QuestName": "I've Got The Goods - Part 1",
     "_id": "6767a1d14b6b88c9e9b07d84",
     "acceptPlayerMessage": "6767a1d14b6b88c9e9b07d84 acceptPlayerMessage",
@@ -165,47 +169,6 @@
           "type": "Exploration",
           "value": 1,
           "visibilityConditions": []
-        },
-        {
-          "completeInSeconds": 0,
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "conditionType": "Location",
-                "dynamicLocale": false,
-                "id": "56f40101d2720b2a4d8b45d6",
-                "target": [
-                  "bigmap"
-                ]
-              },
-              {
-                "conditionType": "ExitStatus",
-                "dynamicLocale": false,
-                "id": "678089ec90d10e78eabe4f4c",
-                "status": [
-                  "Survived"
-                ]
-              }
-            ],
-            "id": "678089f9cc6b8fa10d235153"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "67808a00a0f5544ee188ecbe",
-          "index": 2,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Completion",
-          "value": 1,
-          "visibilityConditions": [
-            {
-              "conditionType": "CompleteCondition",
-              "id": "67808a5cf3574585f42fd1a4",
-              "target": "6767a2b4d865374272d49c0f"
-            }
-          ]
         }
       ],
       "AvailableForStart": [
@@ -244,7 +207,7 @@
     "image": "/files/quest/icon/IveGotTheGoods_quest.png",
     "instantComplete": false,
     "isKey": false,
-    "location": "56f40101d2720b2a4d8b45d6", 
+    "location": "56f40101d2720b2a4d8b45d6",
     "name": "6767a1d14b6b88c9e9b07d84 name",
     "note": "6767a1d14b6b88c9e9b07d84 note",
     "restartable": false,
@@ -259,7 +222,9 @@
           "value": 5000
         },
         {
-          "availableInGameEditions": ["unheard_edition"],
+          "availableInGameEditions": [
+            "unheard_edition"
+          ],
           "id": "6767a2e7d0f760ea600f02ed",
           "index": 1,
           "target": "6758f03d55bf9943a7b14e47",
@@ -267,12 +232,14 @@
           "value": 0.05
         },
         {
-          "availableInGameEditions": ["standard"],
+          "availableInGameEditions": [
+            "standard"
+          ],
           "id": "67817d8d921c55a001500b5b",
           "index": 1,
           "target": "6758f03d55bf9943a7b14e47",
           "type": "TraderStanding",
-          "value": 0.15  
+          "value": 0.15
         },
         {
           "findInRaid": false,
@@ -442,16 +409,16 @@
           "type": "Item",
           "unknown": false,
           "value": 25000
-        }   
+        }
       ]
-    },  
+    },
     "secretQuest": false,
     "side": "Pmc",
     "startedMessageText": "67817dd744d985f05ed8a0e5 startedMessageText",
     "successMessageText": "67817dd744d985f05ed8a0e5 successMessageText",
     "traderId": "6758f03d55bf9943a7b14e47",
     "type": "Elimination"
-  },  
+  },
   "678357b492116f3d9daa65fb": {
     "QuestName": "Downtime",
     "_id": "678357b492116f3d9daa65fb",
@@ -516,7 +483,7 @@
           "id": "678358ed44e7cfe1695e3ebe",
           "index": 0,
           "parentId": "",
-          "value": 12,
+          "value": 17,
           "visibilityConditions": []
         },
         {
@@ -532,7 +499,7 @@
             4
           ],
           "target": "67817dd744d985f05ed8a0e5",
-          "visibilityConditions": []  
+          "visibilityConditions": []
         }
       ],
       "Fail": []
@@ -543,7 +510,7 @@
     "image": "/files/quest/icon/Downtime_quest.png",
     "instantComplete": false,
     "isKey": false,
-    "location": "any", 
+    "location": "any",
     "name": "678357b492116f3d9daa65fb name",
     "note": "678357b492116f3d9daa65fb note",
     "restartable": false,
@@ -564,7 +531,7 @@
           "target": "6758f03d55bf9943a7b14e47",
           "type": "TraderStanding",
           "value": 0.04
-        },  
+        },
         {
           "findInRaid": false,
           "id": "678359231bf6c42734b25e9a",
@@ -595,7 +562,7 @@
           "loyaltyLevel": 2,
           "target": "676660a7d9635cc265bc37ba",
           "traderId": "6758f03d55bf9943a7b14e47",
-          "type": "AssortmentUnlock"  
+          "type": "AssortmentUnlock"
         }
       ]
     },
@@ -607,7 +574,7 @@
     "type": "Elimination"
   },
   "67858833e1f13d3e3887806e": {
-    "QuestName": "A Helping Hand",
+    "QuestName": "A Helping Hand - Part 1",
     "_id": "67858833e1f13d3e3887806e",
     "acceptPlayerMessage": "67858833e1f13d3e3887806e acceptPlayerMessage",
     "canShowNotificationsInGame": true,
@@ -671,7 +638,7 @@
           "index": 0,
           "parentId": "",
           "value": 20,
-          "visibilityConditions": []   
+          "visibilityConditions": []
         }
       ],
       "Fail": []
@@ -739,7 +706,7 @@
           "loyaltyLevel": 3,
           "target": "6782661a39d898b74ceaa5c0",
           "traderId": "6758f03d55bf9943a7b14e47",
-          "type": "AssortmentUnlock"     
+          "type": "AssortmentUnlock"
         },
         {
           "availableInGameEditions": [],
@@ -785,19 +752,19 @@
     "traderId": "6758f03d55bf9943a7b14e47",
     "type": "Completion"
   },
-    "67ea02acf79c4284547e3838": { 
-      "QuestName": "I've Got The Goods - Part 3",
-      "_id": "67ea02acf79c4284547e3838",
-      "acceptPlayerMessage": "67ea02acf79c4284547e3838 acceptPlayerMessage",
-      "acceptanceAndFinishingSource": "eft",
-      "arenaLocations": [],
-      "canShowNotificationsInGame": true,
-      "changeQuestMessageText": "67ea02acf79c4284547e3838 changeQuestMessageText",
-      "completePlayerMessage": "67ea02acf79c4284547e3838 completePlayerMessage",
-      "conditions": {
-        "AvailableForFinish": [
-          {
-            "conditionType": "HandoverItem",
+  "67ea02acf79c4284547e3838": {
+    "QuestName": "I've Got The Goods - Part 3",
+    "_id": "67ea02acf79c4284547e3838",
+    "acceptPlayerMessage": "67ea02acf79c4284547e3838 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67ea02acf79c4284547e3838 changeQuestMessageText",
+    "completePlayerMessage": "67ea02acf79c4284547e3838 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
@@ -812,7 +779,7 @@
             "5af0548586f7743a532b7e99"
           ],
           "value": 1,
-            "visibilityConditions": []
+          "visibilityConditions": []
         },
         {
           "conditionType": "HandoverItem",
@@ -830,148 +797,147 @@
             "5751a89d24597722aa0e8db0"
           ],
           "value": 1,
-            "visibilityConditions": []
-          },
-          {
-            "conditionType": "HandoverItem",
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67ea051321c89209a769f6fd",
-            "index": 3,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": true,
-            "parentId": "",
-            "target": [
-              "5d1b3a5d86f774252167ba22"
-            ],
-            "value": 1,
-              "visibilityConditions": []    
-          }
-        ],
-        "AvailableForStart": [
-          {
-            "compareMethod": ">=",
-            "conditionType": "Level",
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67ea0526d717892a43640cea",
-            "index": 0,
-            "parentId": "",
-            "value": 1,
-            "visibilityConditions": []
-          },
-          {
-            "availableAfter": 0,
-            "conditionType": "Quest",
-            "dispersion": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67ea054f43e34c3be11a1cbd",
-            "index": 1,
-            "parentId": "",
-            "status": [
-              4,
-              5
-            ],
-            "target": "67817dd744d985f05ed8a0e5",
-            "visibilityConditions": []
-          }
-        ],
-        "Fail": []
-      },
-      "declinePlayerMessage": "67ea02acf79c4284547e3838 declinePlayerMessage",
-      "description": "67ea02acf79c4284547e3838 description",
-      "failMessageText": "67ea02acf79c4284547e3838 failMessageText",
-      "gameModes": [],
-      "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
-      "instantComplete": false,
-      "isKey": false,
-      "location": "any",
-      "name": "67ea02acf79c4284547e3838 name",
-      "note": "67ea02acf79c4284547e3838 note",
-      "progressSource": "eft",
-      "rankingModes": [],
-      "restartable": false,
-      "rewards": {
-        "Fail": [],
-        "Started": [],
-        "Success": [
-          {
-            "availableInGameEditions": [],
-            "id": "67ea05c3ab88e4105b648f46",
-            "index": 0,
-            "type": "Experience",
-            "unknown": false,
-            "value": 7500
-          },
-          {
-            "availableInGameEditions": [],
-            "id": "60cc9f9f98b492706036460a",
-            "index": 1,
-            "target": "6758f03d55bf9943a7b14e47",
-            "type": "TraderStanding",
-            "unknown": false,
-            "value": 0.01
-          },
-          {
-            "availableInGameEditions": [],
-            "findInRaid": false,
-            "id": "67ea05d59182ef19dbe35462",
-            "index": 2,
-            "items": [
-              {
-                "_id": "67ea05e317793d5554b6a779",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                  "StackObjectsCount": 65000
-                }
-              }
-            ],
-            "target": "67ea05e317793d5554b6a779",
-            "type": "Item",
-            "unknown": false,
-            "value": 65000
-          },
-          {
-            "availableInGameEditions": [],
-            "id": "67ea05f7b801ac52ec8dd7cd",
-            "index": 3,
-            "items": [
-              {
-                "_id": "678269aa8e5ac5ae8a846b6b",
-                "_tpl": "5c0e530286f7747fa1419862"
-              }
-            ],
-            "loyaltyLevel": 3,
-            "target": "678269aa8e5ac5ae8a846b6b",
-            "traderId": "6758f03d55bf9943a7b14e47",
-            "type": "AssortmentUnlock"     
-          }
-        ]
-      },
-      "secretQuest": false,
-      "side": "Pmc",
-      "startedMessageText": "67858833e1f13d3e3887806e startedMessageText",
-      "successMessageText": "67858833e1f13d3e3887806e successMessageText",
-      "traderId": "6758f03d55bf9943a7b14e47",
-      "type": "Completion"
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ea051321c89209a769f6fd",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b3a5d86f774252167ba22"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ea0526d717892a43640cea",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ea054f43e34c3be11a1cbd",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4  
+          ],
+          "target": "67817dd744d985f05ed8a0e5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
     },
-    "67ea0d7e95f238645ec43f33": { 
-      "QuestName": "I've Got The Goods - Part 4",
-      "_id": "67ea0d7e95f238645ec43f33",
-      "acceptPlayerMessage": "67ea0d7e95f238645ec43f33 acceptPlayerMessage",
-      "acceptanceAndFinishingSource": "eft",
-      "arenaLocations": [],
-      "canShowNotificationsInGame": true,
-      "changeQuestMessageText": "67ea0d7e95f238645ec43f33 changeQuestMessageText",
-      "completePlayerMessage": "67ea0d7e95f238645ec43f33 completePlayerMessage",
-      "conditions": {
-        "AvailableForFinish": [
-          {
-            "conditionType": "HandoverItem",
+    "declinePlayerMessage": "67ea02acf79c4284547e3838 declinePlayerMessage",
+    "description": "67ea02acf79c4284547e3838 description",
+    "failMessageText": "67ea02acf79c4284547e3838 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67ea02acf79c4284547e3838 name",
+    "note": "67ea02acf79c4284547e3838 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67ea05c3ab88e4105b648f46",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "60cc9f9f98b492706036460a",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67ea05d59182ef19dbe35462",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67ea05e317793d5554b6a779",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 65000
+              }
+            }
+          ],
+          "target": "67ea05e317793d5554b6a779",
+          "type": "Item",
+          "unknown": false,
+          "value": 65000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67ea05f7b801ac52ec8dd7cd",
+          "index": 3,
+          "items": [
+            {
+              "_id": "678269aa8e5ac5ae8a846b6b",
+              "_tpl": "5c0e530286f7747fa1419862"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "678269aa8e5ac5ae8a846b6b",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67858833e1f13d3e3887806e startedMessageText",
+    "successMessageText": "67858833e1f13d3e3887806e successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Merchant"
+  },
+  "67ea0d7e95f238645ec43f33": {
+    "QuestName": "I've Got The Goods - Part 4",
+    "_id": "67ea0d7e95f238645ec43f33",
+    "acceptPlayerMessage": "67ea0d7e95f238645ec43f33 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67ea0d7e95f238645ec43f33 changeQuestMessageText",
+    "completePlayerMessage": "67ea0d7e95f238645ec43f33 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
@@ -986,7 +952,7 @@
             "59e3606886f77417674759a5"
           ],
           "value": 1,
-            "visibilityConditions": []
+          "visibilityConditions": []
         },
         {
           "conditionType": "HandoverItem",
@@ -1004,148 +970,147 @@
             "62a0a043cf4a99369e2624a5"
           ],
           "value": 1,
-            "visibilityConditions": []
-          },
-          {
-            "conditionType": "HandoverItem",
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67ea0fac390f216babf25415",
-            "index": 3,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": true,
-            "parentId": "",
-            "target": [
-              "5d1b3a5d86f774252167ba22"
-            ],
-            "value": 2,
-              "visibilityConditions": []    
-          }
-        ],
-        "AvailableForStart": [
-          {
-            "compareMethod": ">=",
-            "conditionType": "Level",
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67ea0526d717892a43640cea",
-            "index": 0,
-            "parentId": "",
-            "value": 1,
-            "visibilityConditions": []
-          },
-          {
-            "availableAfter": 0,
-            "conditionType": "Quest",
-            "dispersion": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67ea101d13071076f6ac6055",
-            "index": 1,
-            "parentId": "",
-            "status": [
-              4,
-              5
-            ],
-            "target": "67ea02acf79c4284547e3838",
-            "visibilityConditions": []
-          }
-        ],
-        "Fail": []
-      },
-      "declinePlayerMessage": "67ea0d7e95f238645ec43f33 declinePlayerMessage",
-      "description": "67ea0d7e95f238645ec43f33 description",
-      "failMessageText": "67ea0d7e95f238645ec43f33 failMessageText",
-      "gameModes": [],
-      "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
-      "instantComplete": false,
-      "isKey": false,
-      "location": "any",
-      "name": "67ea0d7e95f238645ec43f33 name",
-      "note": "67ea0d7e95f238645ec43f33 note",
-      "progressSource": "eft",
-      "rankingModes": [],
-      "restartable": false,
-      "rewards": {
-        "Fail": [],
-        "Started": [],
-        "Success": [
-          {
-            "availableInGameEditions": [],
-            "id": "67ea109b4a0b7f2a9b6d64de",
-            "index": 0,
-            "type": "Experience",
-            "unknown": false,
-            "value": 7500
-          },
-          {
-            "availableInGameEditions": [],
-            "id": "67ea107855db723835d2a126",
-            "index": 1,
-            "target": "6758f03d55bf9943a7b14e47",
-            "type": "TraderStanding",
-            "unknown": false,
-            "value": 0.01
-          },
-          {
-            "availableInGameEditions": [],
-            "findInRaid": false,
-            "id": "67ea10a6754aeeeb3d76494b",
-            "index": 2,
-            "items": [
-              {
-                "_id": "67ea10b61afacf5225e982d5",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                  "StackObjectsCount": 100000
-                }
-              }
-            ],
-            "target": "67ea10b61afacf5225e982d5",
-            "type": "Item",
-            "unknown": false,
-            "value": 100000
-          },
-          {
-            "availableInGameEditions": [],
-            "id": "67ea10d2a83fd3c41dfb79c9",
-            "index": 3,
-            "items": [
-              {
-                "_id": "67826a5f2a0a5872bd672253",
-                "_tpl": "5c0e531d86f7747fa23f4d42"
-              }
-            ],
-            "loyaltyLevel": 3,
-            "target": "67826a5f2a0a5872bd672253",
-            "traderId": "6758f03d55bf9943a7b14e47",
-            "type": "AssortmentUnlock"     
-          }
-        ]
-      },
-      "secretQuest": false,
-      "side": "Pmc",
-      "startedMessageText": "67ea0d7e95f238645ec43f33 startedMessageText",
-      "successMessageText": "67ea0d7e95f238645ec43f33 successMessageText",
-      "traderId": "6758f03d55bf9943a7b14e47",
-      "type": "Completion"
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ea0fac390f216babf25415",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b3a5d86f774252167ba22"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ea0526d717892a43640cea",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ea101d13071076f6ac6055",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4            
+          ],
+          "target": "67858833e1f13d3e3887806e",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
     },
-    "67eafdc37c789ce52786b9c8": { 
-      "QuestName": "I've Got The Goods - Part 5",
-      "_id": "67eafdc37c789ce52786b9c8",
-      "acceptPlayerMessage": "67eafdc37c789ce52786b9c8 acceptPlayerMessage",
-      "acceptanceAndFinishingSource": "eft",
-      "arenaLocations": [],
-      "canShowNotificationsInGame": true,
-      "changeQuestMessageText": "67eafdc37c789ce52786b9c8 changeQuestMessageText",
-      "completePlayerMessage": "67eafdc37c789ce52786b9c8 completePlayerMessage",
-      "conditions": {
-        "AvailableForFinish": [
-          {
-            "conditionType": "HandoverItem",
+    "declinePlayerMessage": "67ea0d7e95f238645ec43f33 declinePlayerMessage",
+    "description": "67ea0d7e95f238645ec43f33 description",
+    "failMessageText": "67ea0d7e95f238645ec43f33 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67ea0d7e95f238645ec43f33 name",
+    "note": "67ea0d7e95f238645ec43f33 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67ea109b4a0b7f2a9b6d64de",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67ea107855db723835d2a126",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67ea10a6754aeeeb3d76494b",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67ea10b61afacf5225e982d5",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ],
+          "target": "67ea10b61afacf5225e982d5",
+          "type": "Item",
+          "unknown": false,
+          "value": 100000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67ea10d2a83fd3c41dfb79c9",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67826a5f2a0a5872bd672253",
+              "_tpl": "5c0e531d86f7747fa23f4d42"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "67826a5f2a0a5872bd672253",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67ea0d7e95f238645ec43f33 startedMessageText",
+    "successMessageText": "67ea0d7e95f238645ec43f33 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Merchant"
+  },
+  "67eafdc37c789ce52786b9c8": {
+    "QuestName": "I've Got The Goods - Part 5",
+    "_id": "67eafdc37c789ce52786b9c8",
+    "acceptPlayerMessage": "67eafdc37c789ce52786b9c8 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67eafdc37c789ce52786b9c8 changeQuestMessageText",
+    "completePlayerMessage": "67eafdc37c789ce52786b9c8 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
@@ -1160,7 +1125,7 @@
             "5e8f3423fd7471236e6e3b64"
           ],
           "value": 1,
-            "visibilityConditions": []
+          "visibilityConditions": []
         },
         {
           "conditionType": "HandoverItem",
@@ -1178,151 +1143,1177 @@
             "5d1b3f2d86f774253763b735"
           ],
           "value": 2,
-            "visibilityConditions": []
-          },
-          {
-            "conditionType": "HandoverItem",
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67eafe5911795ef1c68faeef",
-            "index": 3,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": true,
-            "parentId": "",
-            "target": [
-              "5d1b3a5d86f774252167ba22"
-            ],
-            "value": 2,
-              "visibilityConditions": []
-            },
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67eafe5911795ef1c68faeef",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b3a5d86f774252167ba22"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67eafe766ea31d71d1b5d228",
+          "index": 4,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c0e530286f7747fa1419862"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67eafea7bb46f363fb2c21e3",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67eafeae8b177d5ab27c5940",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4           
+          ],
+          "target": "67ea0d7e95f238645ec43f33",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67eafdc37c789ce52786b9c8 declinePlayerMessage",
+    "description": "67eafdc37c789ce52786b9c8 description",
+    "failMessageText": "67eafdc37c789ce52786b9c8 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67eafdc37c789ce52786b9c8 name",
+    "note": "67eafdc37c789ce52786b9c8 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67eafece3d07f283ea0c820b",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 10000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67eafee4dbced3348845c388",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67eafef1390ee0809ee309d9",
+          "index": 2,
+          "items": [
             {
-              "conditionType": "HandoverItem",
-              "dogtagLevel": 0,
-              "dynamicLocale": false,
-              "globalQuestCounterId": "",
-              "id": "67eafe766ea31d71d1b5d228",
-              "index": 4,
-              "isEncoded": false,
-              "maxDurability": 100,
-              "minDurability": 0,
-              "onlyFoundInRaid": false,
-              "parentId": "",
-              "target": [
-                "5c0e530286f7747fa1419862"
-              ],
-              "value": 1,
-                "visibilityConditions": []       
-          }
-        ],
-        "AvailableForStart": [
-          {
-            "compareMethod": ">=",
-            "conditionType": "Level",
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67eafea7bb46f363fb2c21e3",
-            "index": 0,
-            "parentId": "",
-            "value": 1,
-            "visibilityConditions": []
-          },
-          {
-            "availableAfter": 0,
-            "conditionType": "Quest",
-            "dispersion": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "67eafeae8b177d5ab27c5940",
-            "index": 1,
-            "parentId": "",
-            "status": [
-              4,
-              5
-            ],
-            "target": "67ea0d7e95f238645ec43f33",
-            "visibilityConditions": []
-          }
-        ],
-        "Fail": []
-      },
-      "declinePlayerMessage": "67eafdc37c789ce52786b9c8 declinePlayerMessage",
-      "description": "67eafdc37c789ce52786b9c8 description",
-      "failMessageText": "67eafdc37c789ce52786b9c8 failMessageText",
-      "gameModes": [],
-      "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
-      "instantComplete": false,
-      "isKey": false,
-      "location": "any",
-      "name": "67eafdc37c789ce52786b9c8 name",
-      "note": "67eafdc37c789ce52786b9c8 note",
-      "progressSource": "eft",
-      "rankingModes": [],
-      "restartable": false,
-      "rewards": {
-        "Fail": [],
-        "Started": [],
-        "Success": [
-          {
-            "availableInGameEditions": [],
-            "id": "67eafece3d07f283ea0c820b",
-            "index": 0,
-            "type": "Experience",
-            "unknown": false,
-            "value": 10000
-          },
-          {
-            "availableInGameEditions": [],
-            "id": "67eafee4dbced3348845c388",
-            "index": 1,
-            "target": "6758f03d55bf9943a7b14e47",
-            "type": "TraderStanding",
-            "unknown": false,
-            "value": 0.01
-          },
-          {
-            "availableInGameEditions": [],
-            "findInRaid": false,
-            "id": "67eafef1390ee0809ee309d9",
-            "index": 2,
-            "items": [
+              "_id": "67eafef8915d7fdce208933f",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ],
+          "target": "67eafef8915d7fdce208933f",
+          "type": "Item",
+          "unknown": false,
+          "value": 100000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67ea10d2a83fd3c41dfb79c9",
+          "index": 3,
+          "items": [
+            {
+              "_id": "678269c7d66fb485c9ec63d6",
+              "_tpl": "5c0e534186f7747fa1419867"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "678269c7d66fb485c9ec63d6",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67eafdc37c789ce52786b9c8 startedMessageText",
+    "successMessageText": "67eafdc37c789ce52786b9c8 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Merchant"
+  },
+  "67ec94ed542654bbdafa4e99": {
+    "QuestName": "A Helping Hand - Part 2",
+    "_id": "67ec94ed542654bbdafa4e99",
+    "acceptPlayerMessage": "67ec94ed542654bbdafa4e99 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67ec94ed542654bbdafa4e99 changeQuestMessageText",
+    "completePlayerMessage": "67ec94ed542654bbdafa4e99 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
               {
-                "_id": "67eafef8915d7fdce208933f",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                  "StackObjectsCount": 100000
-                }
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67ec9544d700c7e2c957e46e",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "InZone",
+                "dynamicLocale": false,
+                "id": "67ec956424f4de3cf8484635",
+                "zoneIds": [
+                  "UnknownSurvivor_Kill_Reserve"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "5704e5fad2720bc05b8b4567",
+                "target": [
+                  "RezervBase"
+                ]
               }
             ],
-            "target": "67eafef8915d7fdce208933f",
-            "type": "Item",
-            "unknown": false,
-            "value": 100000
+            "id": "67858833e1f13d3e3887806e"
           },
-          {
-            "availableInGameEditions": [],
-            "id": "67ea10d2a83fd3c41dfb79c9",
-            "index": 3,
-            "items": [
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ec95846ae51a2bb4c3ff34",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ec9643fbd89f039c370e0f",
+          "index": 0,
+          "parentId": "",
+          "value": 22,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67ec96c50f785f71605b0717",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67858833e1f13d3e3887806e",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67ec94ed542654bbdafa4e99 declinePlayerMessage",
+    "description": "67ec94ed542654bbdafa4e99 description",
+    "failMessageText": "67ec94ed542654bbdafa4e99 failMessageText",
+    "image": "/files/quest/icon/AHelpingHand_quest.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67ec94ed542654bbdafa4e99 name",
+    "note": "67ec94ed542654bbdafa4e99 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "67ec96da267d819dbbed955b",
+          "index": 0,
+          "type": "Experience",
+          "value": 10000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67ec96ea7606a1f43f7f36d2",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "value": 0.01
+        },
+        {
+          "findInRaid": false,
+          "id": "67ec9705e27e6cdda16dcad3",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67ec970fff14baae63116fa2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 75000
+              }
+            }
+          ],
+          "target": "67ec970fff14baae63116fa2",
+          "type": "Item",
+          "value": 75000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67ec9c9601f6868f988a4265",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67e3547207b5584a9280d3e9",
+              "_tpl": "5780cf7f2459777de4559322"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "67e3547207b5584a9280d3e9",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67ec94ed542654bbdafa4e99 startedMessageText",
+    "successMessageText": "67ec94ed542654bbdafa4e99 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Elimination"
+  },
+  "67f04a7c55569a924274b011": {
+    "QuestName": "A Helping Hand - Part 3",
+    "_id": "67f04a7c55569a924274b011",
+    "acceptPlayerMessage": "67f04a7c55569a924274b011 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67f04a7c55569a924274b011 changeQuestMessageText",
+    "completePlayerMessage": "67f04a7c55569a924274b011 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f04bb910df3ad61896851f",
+          "index": 0,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5d3eb3b0a4b93615055e84d2"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "UnknownSurvivor_PlaceItem_FN_EastWing_322"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f04fec1fad17aa6b8818f7",
+          "index": 0,
+          "parentId": "",
+          "value": 22,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f04ff215639f91d899894e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67ec94ed542654bbdafa4e99",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67f04a7c55569a924274b011 declinePlayerMessage",
+    "description": "67f04a7c55569a924274b011 description",
+    "failMessageText": "67f04a7c55569a924274b011 failMessageText",
+    "image": "/files/quest/icon/AHelpingHand_quest.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "67f04a7c55569a924274b011 name",
+    "note": "67f04a7c55569a924274b011 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67f04ffd57bf0fa202397b82",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 9200
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67f05014dcb6f6fec50bee89",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67f0506250490b221dfcc6bd",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67f0505501fbf07b27bc6934",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 150000
+              }
+            }
+          ],
+          "target": "67f0505501fbf07b27bc6934",
+          "type": "Item",
+          "unknown": false,
+          "value": 150000
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67f04a7c55569a924274b011 startedMessageText",
+    "successMessageText": "67f04a7c55569a924274b011 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Completion"
+  },
+  "67f1907a6c42769aa29bf467": {
+    "QuestName": "I've Got The Goods - Part 6",
+    "_id": "67f1907a6c42769aa29bf467",
+    "acceptPlayerMessage": "67f1907a6c42769aa29bf467 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67f1907a6c42769aa29bf467 changeQuestMessageText",
+    "completePlayerMessage": "67f1907a6c42769aa29bf467 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f190e4a30f34a324d2d60c",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c0e533786f7747fa23f4d47"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f19104898b62fd7da3f46b",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "544fb3f34bdc2d03748b456a"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f1911a8b111e0ca486e2bf",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b3a5d86f774252167ba22"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f1916fdb2ce25780d5ac31",
+          "index": 4,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5751435d24597720a27126d1"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f1919ec0c7ac9f69b75344",
+          "index": 0,
+          "parentId": "",
+          "value": 24,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f191a4281ec267b42bd066",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4           
+          ],
+          "target": "67eafdc37c789ce52786b9c8",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67f1907a6c42769aa29bf467 declinePlayerMessage",
+    "description": "67f1907a6c42769aa29bf467 description",
+    "failMessageText": "67f1907a6c42769aa29bf467 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67f1907a6c42769aa29bf467 name",
+    "note": "67f1907a6c42769aa29bf467 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67f191de7436e06aa3837bae",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 10000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67f191e716787ce215a49011",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67f19205b363c13eaf7e36fe",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67f191fbbae7933b0526b677",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ],
+          "target": "67f191fbbae7933b0526b677",
+          "type": "Item",
+          "unknown": false,
+          "value": 100000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67f19247a8c6ca4f19fac6de",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67826b25afd9765038686cb4",
+              "_tpl": "5ed51652f6c34d2cc26336a1"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "67826b25afd9765038686cb4",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67f1907a6c42769aa29bf467 startedMessageText",
+    "successMessageText": "67f1907a6c42769aa29bf467 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Merchant"
+  },
+  "67f2d7f4d616d65e4c74ed93": {
+    "QuestName": "A Helping Hand - Part 4",
+    "_id": "67f2d7f4d616d65e4c74ed93",
+    "acceptPlayerMessage": "67f2d7f4d616d65e4c74ed93 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67f2d7f4d616d65e4c74ed93 changeQuestMessageText",
+    "completePlayerMessage": "67f2d7f4d616d65e4c74ed93 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
               {
-                "_id": "678269c7d66fb485c9ec63d6",
-                "_tpl": "5c0e534186f7747fa1419867"
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67f2d9e6cc36530eb753e8c9",
+                "target": "UnknownSurvivor_VisitLocation_WestWing_322",
+                "value": 1
               }
             ],
-            "loyaltyLevel": 3,
-            "target": "678269c7d66fb485c9ec63d6",
-            "traderId": "6758f03d55bf9943a7b14e47",
-            "type": "AssortmentUnlock"     
-          }
-        ]
-      },
-      "secretQuest": false,
-      "side": "Pmc",
-      "startedMessageText": "67eafdc37c789ce52786b9c8 startedMessageText",
-      "successMessageText": "67eafdc37c789ce52786b9c8 successMessageText",
-      "traderId": "6758f03d55bf9943a7b14e47",
-      "type": "Completion"     
+            "id": "678089bb2cf1e72281879b23"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f2d9ee3cb5a2089b70f8bc",
+          "index": 1,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "5704e554d2720bac5b8b456e",
+                "target": [
+                  "Shoreline"
+                ]
+              }
+            ],
+            "id": "67f2d9fc7f45eda76ae1fc5c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67808a00a0f5544ee188ecbe",
+          "index": 2,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67f2da0337471bfe76a8d496",
+              "target": "67f2d9ee3cb5a2089b70f8bc"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f2da2ef7b555236dcbc657",
+          "index": 0,
+          "parentId": "",
+          "value": 25,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f2da371e259dcd1555f082",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67f04a7c55569a924274b011",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67f2d7f4d616d65e4c74ed93 declinePlayerMessage",
+    "description": "67f2d7f4d616d65e4c74ed93 description",
+    "failMessageText": "67f2d7f4d616d65e4c74ed93 failMessageText",
+    "image": "/files/quest/icon/IveGotTheGoods_quest.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "67f2d7f4d616d65e4c74ed93 name",
+    "note": "67f2d7f4d616d65e4c74ed93 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "67f2dac3dddf1db3cb2ddb1e",
+          "index": 0,
+          "type": "Experience",
+          "value": 15000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67f2dad1c16e27b67b1a15b0",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "value": 0.01
+        },
+        {
+          "findInRaid": false,
+          "id": "67f2daf17387e9b115120603",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67f2dafd49c731788c855591",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 45000
+              }
+            }
+          ],
+          "target": "67f2dafd49c731788c855591",
+          "type": "Item",
+          "value": 45000
+        }
+      ]
+    },
+    "side": "Pmc",
+    "startedMessageText": "67f2d7f4d616d65e4c74ed93 startedMessageText",
+    "Status": "0",
+    "successMessageText": "67f2d7f4d616d65e4c74ed93 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Exploration"
+  },
+  "67f5b33546e2a770ff3cb1d5": {
+    "QuestName": "A Helping Hand - Part 5",
+    "_id": "67f5b33546e2a770ff3cb1d5",
+    "acceptPlayerMessage": "67f5b33546e2a770ff3cb1d5 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67f5b33546e2a770ff3cb1d5 changeQuestMessageText",
+    "completePlayerMessage": "67f5b33546e2a770ff3cb1d5 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67f5b4f8cfebd930e61f4ae0",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "followerSanitar"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "67f5b4ff6694af24ef42ed42"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f5b504449fc325703f641e",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 2,
+          "visibilityConditions": []
+        }          
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f5b50a6bd290d25fc1787f",
+          "index": 0,
+          "parentId": "",
+          "value": 24,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f5b512ad37522ad99043fe",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67f2d7f4d616d65e4c74ed93",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67f5b33546e2a770ff3cb1d5 declinePlayerMessage",
+    "description": "67f5b33546e2a770ff3cb1d5 description",
+    "failMessageText": "67f5b33546e2a770ff3cb1d5 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5d69470786f774238a38d844.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "67f5b33546e2a770ff3cb1d5 name",
+    "note": "67f5b33546e2a770ff3cb1d5 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],      
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67f5b52030d28ace0c805148",
+          "index": 1,
+          "items": [
+            {
+              "_id": "67f5b52a4fb9c16cde1c8126",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ],
+          "target": "67f5b52a4fb9c16cde1c8126",
+          "type": "Item",
+          "unknown": false,
+          "value": 100000
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67f5b33546e2a770ff3cb1d5 startedMessageText",
+    "status": 0,
+    "successMessageText": "67f5b33546e2a770ff3cb1d5 successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Elimination"
+  },  
+  "67f3dbefb8ab8a58fa844ddf": {
+    "QuestName": "Revenge",
+    "_id": "67f3dbefb8ab8a58fa844ddf",
+    "acceptPlayerMessage": "67f3dbefb8ab8a58fa844ddf acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67f3dbefb8ab8a58fa844ddf changeQuestMessageText",
+    "completePlayerMessage": "67f3dbefb8ab8a58fa844ddf completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67f3de1a3460d28a7f8edcb8",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossSanitar"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "67f3de2c79117da91ce698c7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f3de34cd9d939b124c846c",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "67f5a89ab28afbeec6a0a4dd",
+                "status": [
+                  "Survived"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67f5a89f7d1da2633cb2bbe9",
+                "target": [
+                  "Shoreline"
+                ]
+              }
+            ],
+            "id": "67f5a8aeab995cd7d776ab54"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f5a8b92e8236ca0e0b1054",
+          "index": 1,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67f5a8f06f6de94c2d445956",
+              "target": "67f3de34cd9d939b124c846c"
+            }
+          ]
+        }          
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f3de850a4477034d0806e3",
+          "index": 0,
+          "parentId": "",
+          "value": 25,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f3de9579f5d93e6c480245",
+          "index": 1,
+          "parentId": "",
+          "status": [           
+            4
+          ],
+          "target": "67f5b33546e2a770ff3cb1d5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {         
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "67f4840e557daf796132a0ba",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67f484139d93122763ce8880",
+                "target": [
+                  "Shoreline"
+                ]
+              }
+            ],
+            "id": "67f4841969c79d7321f21832"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67f4842a024ca78ca757cc99",
+          "index": 1,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "67f3dbefb8ab8a58fa844ddf declinePlayerMessage",
+    "description": "67f3dbefb8ab8a58fa844ddf description",
+    "failMessageText": "67f3dbefb8ab8a58fa844ddf failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/Revenge_Quest.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "67f3dbefb8ab8a58fa844ddf name",
+    "note": "67f3dbefb8ab8a58fa844ddf note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": true,
+    "rewards": {
+      "Fail": [],      
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67f3e1f9228342e02e0f047c",
+          "index": 1,
+          "items": [
+            {
+              "_id": "67f3e202e4c57a7c520535bd",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ],
+          "target": "67f3e202e4c57a7c520535bd",
+          "type": "Item",
+          "unknown": false,
+          "value": 100000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67f48f786ac8a25ef591d013",
+          "index": 1,
+          "target": "6758f03d55bf9943a7b14e47",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.05
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67f3e2303d08ceafd0c5c26e",
+          "index": 2,
+          "items": [
+            {
+              "_id": "67f3e2233520f2b621f5bcb8",
+              "_tpl": "5c1267ee86f77416ec610f72",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67f3e2233520f2b621f5bcb8",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67f48f01d8636e88368f6b71",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67ec9a8ef4bf873871518557",
+              "_tpl": "5aa7e276e5b5b000171d0647"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "67ec9a8ef4bf873871518557",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67f3dbefb8ab8a58fa844ddf startedMessageText",
+    "status": 0,
+    "successMessageText": "67f3dbefb8ab8a58fa844ddf successMessageText",
+    "traderId": "6758f03d55bf9943a7b14e47",
+    "type": "Elimination"
   }
-}  
+}
