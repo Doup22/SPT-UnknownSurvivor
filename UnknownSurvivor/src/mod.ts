@@ -52,7 +52,7 @@ class UnknownSurvivor   implements IPreSptLoadMod, IPostDBLoadMod
         Traders[baseJson._id] = baseJson._id;
 
         
-        ragfairConfig.traders[baseJson._id] = false;
+        ragfairConfig.traders[baseJson._id] = true;
 
         this.logger.debug(`[${this.mod}] preSpt Loaded`);
     }
