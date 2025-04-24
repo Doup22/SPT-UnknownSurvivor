@@ -3,14 +3,7 @@
     "working": true,
     "availableInRaid": false,
     "items_buy": {
-        "category": [
-            "5448e8d64bdc2dce718b4568",
-            "543be6674bdc2df1348b4569",
-            "5c093db286f7740a1b2617e3",
-            "5448f39d4bdc2d0a728b4568",
-            "5795f317245977243854e041"
-            
-        ],
+        "category": [],
         "id_list": []
     },
     "items_buy_prohibited": {
