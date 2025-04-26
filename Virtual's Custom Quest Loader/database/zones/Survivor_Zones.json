@@ -121,7 +121,32 @@
       "X": "3.25",
       "Y": "1",
       "Z": "1",
-      "W": "0"       
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "UnknownSurvivor_Mark_CrackHouse_Z2",
+    "ZoneName": "UnknownSurvivor_Mark_CrackHouse_Z2",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "88.61535",
+      "Y": "4.976235",
+      "Z": "-152.9251",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.09801714",
+      "Z": "0",
+      "W": "0.9951847"
+    },
+    "Scale": {
+      "X": "6.75",
+      "Y": "1",
+      "Z": "20",
+      "W": "0"           
     }
   }
 ]
